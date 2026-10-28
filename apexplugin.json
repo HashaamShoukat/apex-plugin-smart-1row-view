@@ -1,0 +1,34 @@
+{
+  "name" : "Smart 1-Row View",
+  "version" : "1.3.3",
+  "description" : "Shows one record as a clean label-and-value card and lets people edit it in place: 1 to 3 pairs per row, spans and sections, badges, chips, avatars, percent bars, colour rules, icons, tooltips and copy buttons driven by #COLUMN# tokens, inline editing with validation, whole-card edit, conflict check and Undo, dependent lists, Link Builder links, a timeline popover and per-user layouts. Record keys never reach the browser.",
+  "keywords" : ["single record", "detail view", "form", "card", "inline edit", "label value", "region", "smart view"],
+  "homepage" : "https://github.com/HashaamShoukat/apex-plugin-smart-1row-view",
+  "bugs" : {
+    "url" : "https://github.com/HashaamShoukat/apex-plugin-smart-1row-view/issues",
+    "email" : "hashaam.shoukat@gmail.com"
+  },
+  "license" : "MIT",
+  "commercial" : "No",
+  "author" : {
+    "name" : "Hashaam Shoukat",
+    "email" : "hashaam.shoukat@gmail.com",
+    "url" : "https://github.com/HashaamShoukat"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/HashaamShoukat/apex-plugin-smart-1row-view.git"
+  },
+  "oracle" : {
+    "versions" : ["19.0.0", "21.0.0", "23.0.0"],
+    "apex" : {
+      "versions" : ["24.1.0", "24.2.0", "26.1.0"],
+      "plugin" : {
+        "internalName" : "COM.HASHAAM.SMART_1ROW_VIEW",
+        "type" : "region",
+        "demo" : "https://oracleapex.com/ords/r/hashaam-admin/apex-plugins-by-hbs/order",
+        "previewImage" : "https://raw.githubusercontent.com/HashaamShoukat/apex-plugin-smart-1row-view/main/docs/images/preview.gif"
+      }
+    }
+  }
+}
